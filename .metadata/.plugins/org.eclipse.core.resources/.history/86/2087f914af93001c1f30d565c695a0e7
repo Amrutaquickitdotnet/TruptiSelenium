@@ -1,0 +1,8 @@
+package com.javaexamples;
+
+public class Example_008_String_Manipulation {
+// Widening TypeCasting
+	public static void main(String[] args) {
+     
+}
+}

@@ -1,0 +1,36 @@
+package com.pagination;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.netty.handler.codec.http.HttpHeaders.Names;
+
+public class Pagination {
+
+	
+	static WebDriver driver;
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "G:\\Trupti\\jarfiles\\chromedriver_win32\\chromedriver.exe");
+
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+
+		driver.get("https://www.dice.com/jobs");
+         driver.manage().window().maximize();
+         int p=1;
+        while (p!=6) {
+		List<WebElement>jobTitles =	driver.findElements(By.cssSelector("a.card-title-link bold"));
+		System.out.println("Count of jobs"+ jobTitles.size());
+        for(int i=0; i<jobTitles.size(); i++) {
+        	System.out.println(jobTitles.get(i).getText());
+        }
+        }
+		
+	}
+
+}

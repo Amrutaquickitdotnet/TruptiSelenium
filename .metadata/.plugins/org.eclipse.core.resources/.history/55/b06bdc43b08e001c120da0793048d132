@@ -1,0 +1,9 @@
+package com.javaexamples;
+
+public class Example_003_charDataType {
+
+	public static void main(String[] args) {
+
+	}
+
+}

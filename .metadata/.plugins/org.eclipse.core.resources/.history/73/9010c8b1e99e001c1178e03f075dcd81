@@ -1,0 +1,6 @@
+package com.javaexamples;
+
+public abstract class Bank {
+
+	abstract int getRateOfinterest();
+}

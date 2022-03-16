@@ -1,0 +1,34 @@
+package com.javaexamples;
+
+public class Example_004_variables {
+
+	public static void main(String[] args) {
+     
+		String name = "Trupti";
+		System.out.println(name);
+		
+		int myNum = 15;
+		myNum = 25;
+		System.out.println(myNum);
+		final int mynum1 = 23;// read-only
+
+		System.out.println(mynum1);
+		
+		
+		char myletter = 'D';
+		System.out.println(myletter);
+		
+		boolean mybool = false;
+		if(mybool== true) {
+			System.out.println("I am in true");// true
+		}else {
+			System.out.println("I am in false");
+			
+			String name1 = "Amruta";
+			System.out.println("Hello"+ name1);
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.javaexamples;
+
+public class Example_007_logicalOperators {
+// Widening TypeCasting
+	public static void main(String[] args) {
+      int x = 10;
+      System.out.println(x>5 && x<4);
+    //  True and false = false
+      
+   System.out.println(x<5 || x<4);
+    
+   
+}
+}

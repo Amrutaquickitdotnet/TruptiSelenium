@@ -1,0 +1,15 @@
+package com.javaexamples;
+
+public class Example_005_TypeCastingConcept {
+
+	public static void main(String[] args) {
+     
+	int myInt = 6;
+	double myDouble = myInt;// Automatic casting conversion from int to double
+	System.out.println(myDouble);
+			
+		}
+		
+	}
+
+

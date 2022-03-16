@@ -1,0 +1,9 @@
+package com.abstraction;
+
+public interface Person {
+
+	
+	void display();
+		
+	
+}

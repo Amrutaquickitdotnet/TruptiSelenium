@@ -1,0 +1,33 @@
+package com.javaexamples;
+
+public class Example_010_SingleDimensionalArray {
+
+	public static void main(String[] args) {
+    String[] name  = new  String[3];// Declaration of Array 
+    
+    // Assign a value to each array 
+    
+    name[0]= "Test";
+    name[1]= "Test1";
+    name[2]= "Test2";
+    name[3]= "Test3";
+    name[4]= "Test4";
+    		
+    // print array 
+    
+    System.out.println("0th element of array is "+ number[0]);
+    
+	/*
+	 * for(int i =0; i<number.length; i++) { System.out.println(number[i]); }
+	 */
+    
+    
+    
+    for(int b:number) {
+    	System.out.println(b);
+    }
+    
+    
+    
+}
+}

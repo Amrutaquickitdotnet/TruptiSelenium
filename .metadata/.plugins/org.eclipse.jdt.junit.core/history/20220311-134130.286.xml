@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CucumberProject" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.testrunner.Runner" time="124.355">
+    <testsuite name="I want to test login functionality of OrangeHRM" time="124.355">
+      <testcase name="want to test login feature" classname="I want to test login functionality of OrangeHRM" time="124.355"/>
+    </testsuite>
+  </testsuite>
+</testrun>

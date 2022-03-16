@@ -1,0 +1,13 @@
+package TestRunner;
+
+import TestBase.TestBase;
+
+public class TestRunner {
+
+	public static void main(String[] args) {
+		TestBase base = new TestBase();
+		base.execute("open_Browser", "NA", "NA", "openbrowser", "chrome");
+
+	}
+
+}

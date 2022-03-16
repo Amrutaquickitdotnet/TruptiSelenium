@@ -1,0 +1,10 @@
+package com.javaexamples;
+
+public class Example_007_logicalOperators {
+// Widening TypeCasting
+	public static void main(String[] args) {
+     String text = "Today is Monday and it is very sunny";
+     // how to find length of string 
+     System.out.println("The length of given string is:"+ text.length());
+}
+}

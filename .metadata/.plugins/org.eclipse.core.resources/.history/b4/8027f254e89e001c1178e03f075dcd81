@@ -1,0 +1,10 @@
+package com.javaexamples;
+
+public class Honda extends Bike
+{
+void run() {
+	System.out.println("Honda milage is 120km/hour");
+}
+
+public static void main(String[] args) {
+}

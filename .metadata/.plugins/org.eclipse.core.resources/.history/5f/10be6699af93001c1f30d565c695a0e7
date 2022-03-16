@@ -1,0 +1,11 @@
+package com.javaexamples;
+
+public class Example_008_String_Manipulation {
+// Widening TypeCasting
+	public static void main(String[] args)
+	{
+		String name = "Trupti";// String Object as a literal
+     name.concat("Testing");
+     System.out.println(name);
+}
+}

@@ -1,0 +1,13 @@
+package com.javaexamples;
+
+public class Example_006_Operators {
+// Widening TypeCasting
+	public static void main(String[] args) {
+
+   int x = 12;
+   x+=12;
+   // x = x+12;
+   System.out.println(x);
+   
+}
+}

@@ -1,0 +1,16 @@
+package com.javaexamples;
+
+public class Example_008_String_Manipulation {
+//String Objects are immutable in nature 
+	
+	// We can not change the value of string 
+	public static void main(String[] args)
+	{
+		//String name = "Trupti";// String Object as a literal
+		
+		String name = new String("Mokati");
+		
+     name.concat("Testing");// Trupti Testing
+     System.out.println(name);
+}
+}

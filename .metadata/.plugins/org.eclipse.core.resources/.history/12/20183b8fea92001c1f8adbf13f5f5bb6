@@ -1,0 +1,17 @@
+package com.javaexamples;
+
+public class Example_007_logicalOperators {
+// Widening TypeCasting
+	public static void main(String[] args) {
+     String text = "Today is Monday and it is very sunny";
+     String text1 = "TRUPTI IS LEARNING JAVA";
+     // how to find length of string 
+     System.out.println("The length of given string is:"+ text.length());
+// toUpperCase and toLowercase
+     System.out.println(text.toUpperCase());
+     System.out.println(text1.toLowerCase());
+	// FIND character in a string 
+     System.out.println(text1.indexOf("LEARNING"));
+     
+	}
+}

@@ -1,0 +1,20 @@
+package com.inheritance;
+
+public class Has_a_RelationShip_Car {
+private String colour;
+private int maxSpeed;
+
+
+public static void main(String[] args) {
+	Has_a_RelationShip_Car car = new Has_a_RelationShip_Car();
+	car.colour("Red");
+
+}
+
+
+private void colour(String colour) {
+	this.colour = colour;
+	
+}
+
+}

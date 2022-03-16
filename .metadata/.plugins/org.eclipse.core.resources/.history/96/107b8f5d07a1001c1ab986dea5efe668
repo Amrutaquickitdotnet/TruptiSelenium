@@ -1,0 +1,22 @@
+package com.inheritance;
+// has a relationship
+public class Car {
+private String colour;
+private int maxSpeed;
+
+
+public static void main(String[] args) {
+	Car car = new Car();
+	car.colour("Red");
+	MarutiCar m = new MarutiCar();
+	m.marutiDemo();
+
+}
+
+
+private void colour(String colour) {
+	this.colour = colour;
+	
+}
+
+}

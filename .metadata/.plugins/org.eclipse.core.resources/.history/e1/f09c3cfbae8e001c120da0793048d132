@@ -1,0 +1,27 @@
+package com.javaexamples;
+
+public class Example_002_DataType {
+
+	// Data Type
+	
+	/*
+	 * There are 2 major Data types in java
+	 * 
+	 * 1. Primitive 2. Non primitive
+	 * Primitive is system -defined built in data type 
+	 * Non Primitive user defined data type 
+	 * Primitive ==> 
+	 * Integer => int, long 
+	 *  Float=> float, double
+	 *   byte 
+	 *   short 
+	 *   char
+	 *   boolean
+	 *   Non Primitive ===> Array, String, Collections
+	 */
+	public static void main(String[] args) {
+		
+    
+	}
+
+}

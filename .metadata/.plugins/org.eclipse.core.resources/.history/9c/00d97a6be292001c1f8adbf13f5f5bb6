@@ -1,0 +1,14 @@
+package com.javaexamples;
+
+public class Example_004_variables {
+
+	public static void main(String[] args) {
+     
+		String name = "Trupti";
+		System.out.println(name);
+		
+		int myNum = 15;
+		System.out.println(myNum);
+	}
+
+}

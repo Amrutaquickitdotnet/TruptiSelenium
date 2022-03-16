@@ -1,0 +1,8 @@
+package com.javaexamples;
+
+public class Example_007_logicalOperators {
+// Widening TypeCasting
+	public static void main(String[] args) {
+
+}
+}

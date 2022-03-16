@@ -1,0 +1,22 @@
+package com.javaexamples;
+
+public class Example_009_Array_Concepts {
+// Widening TypeCasting
+	public static void main(String[] args) {
+      int x = 10;
+      System.out.println(x>5 && x<4);
+    //  True and false = false
+      // logical OR
+      
+      int y = 5;
+      System.out.println(y>3 || y <4);
+ 
+    //true or false = true
+   // Logical not 
+      int  z = 5;
+      System.out.println(!(z>3 && z<10));
+      System.out.println(z>3 & z<10);
+     
+      //(!true and true)
+}
+}

@@ -1,0 +1,7 @@
+package com.inheritance;
+
+public class Has_a_RelationShip_Car {
+private String colour;
+private int maxSpeed;
+
+}

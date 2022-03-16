@@ -1,0 +1,14 @@
+package com.javaexamples;
+
+import java.util.Scanner;
+
+public class Example_010_Takinginputfromusers {
+
+	public static void main(String[] args) {
+ 
+    // input from user 
+		
+		Scanner s =  new Scanner(System.in);
+		System.out.println("Enter your choice for cofee");
+}
+}

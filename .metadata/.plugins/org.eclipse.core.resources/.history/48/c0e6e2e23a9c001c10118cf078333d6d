@@ -1,0 +1,40 @@
+package FileHandling;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ReadProperty {
+
+	static FileInputStream  fs;
+	static Properties prop;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public void readData() {
+		prop = new Properties();// prop 
+		String path ="G:\\Trupti\\FileHandling\\Data.properties";
+		
+		// 2 classes in java 
+		// FileInputStream => InputStream => Read 
+		//FileOutputStream => OutStream => Write
+		
+		try {
+			  fs = new FileInputStream(path);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		try {
+			prop.load(fs);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

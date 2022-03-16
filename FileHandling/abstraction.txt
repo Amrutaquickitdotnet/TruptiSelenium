@@ -1,0 +1,36 @@
+Abstraction in java
+
+Process of hiding the implementation details and showing major functionality to end user
+
+
+1. Abstract class
+2. Interface
+
+  abstract   class a
+
+
+abstract , non abstract
+
+we can not instantiated
+
+
+can have constructors and static method
+
+
+4. final methods
+
+
+abstract void test() 
+
+no method body({})
+
+
+//no need to provide  implementation  inside abstract method 
+// implmentation can done at time of inheritance
+
+
+//button[@name='login']
+
+driver.findElement(By.linkText("Log In").click
+
+

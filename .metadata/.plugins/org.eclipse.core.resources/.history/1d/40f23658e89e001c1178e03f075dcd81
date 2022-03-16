@@ -1,0 +1,5 @@
+package com.javaexamples;
+
+public abstract class Bike {
+
+}

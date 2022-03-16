@@ -1,0 +1,10 @@
+package com.inheritance;
+
+public class MarutiCar extends Has_a_RelationShip_Car{
+
+	
+	public void marutiDemo() {
+		
+	}
+	
+}

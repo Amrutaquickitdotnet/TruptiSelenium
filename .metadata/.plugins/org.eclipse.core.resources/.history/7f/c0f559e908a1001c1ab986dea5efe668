@@ -1,0 +1,27 @@
+package com.inheritance;
+
+public class MarutiCar extends Car{
+	/*
+	 * private String colour; private int maxSpeed;
+	 * 
+	 * 
+	 * public void setColour(String colour) { this.colour = colour; }
+	 * 
+	 * 
+	 * public int getMaxSpeed() { return maxSpeed; }
+	 * 
+	 * 
+	 * public void setMaxSpeed(int maxSpeed) { this.maxSpeed = maxSpeed; }
+	 */
+	public void marutiDemo() {
+		
+		Engine marutiCarengine = new Engine();
+		
+		marutiCarengine.stat();
+		
+		marutiCarengine.colour();
+		
+		marutiCarengine.stop();
+	}
+	
+}
